@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Sriracha&display=swap');
+
+
+:root {
+    --azul: #1A7FBD;
+    --AzulLight: #a4dcff;
+    --preto: #000;
+    --branco: #fff;
+
+
+}
+
+
+body {
+    background-color: #1A7FBD;
+    font-family: 'Noto Sans', sans-serif;
+    margin: auto;
+
+
+
+}
+
+main {
+    max-width: 1300px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+
+
+}
+
+
+
+#img_header {
+    max-width: 180px;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+#botao {
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 15px 25px;
+    border-radius: 7px;
+
+
+}
+
+#linha_header {
+    background-color: linear-gradient(to right, transparent, white, transparent);
+
+    margin: auto;
+}
+
+/*fim header*************/
+
+
+form h1 {
+    text-align: left;
+    font-size: 27px;
+    color: darkgray;
+}
+
+form p {
+    color: #1A7FBD;
+}
+
+form {
+    max-width: 380px;
+
+    padding: 50px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+
+
+
+}
+
+.programacao {
+    background-color: #0056b3;
+    color: white;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-right: 25px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#nome {
+    background-image: url(Assets_Netuno/icones/user.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 2.0em;
+
+}
+
+#email {
+    background-image: url(Assets_Netuno/icones/mail.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 2.0em;
+
+}
+
+#estado {
+    background-image: url(Assets_Netuno/icones/state.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 2.0em;
+
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    min-width: 20px;
+    min-height: 20px;
+
+}
+
+
+
+
+.radio-label {
+    display: flex;
+    margin-right: 40px;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.checkbox-label {
+    display: flex;
+    margin-right: 14px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-color: #007bff;
+}
+
+select {
+    height: 40px;
+}
+
+label span {
+    color: red;
+}
+
+#linha-form {
+    background-color: darkgray;
+}
+
+input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    padding: 0px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#p-priv {
+    color: darkgray;
+    font-size: 14px;
+}
+
+#priv {
+    color: #1A7FBD;
+}
+
+#formulario {
+    display: flex;
+    justify-content: end;
+    transform: scale(0.8);
+}
+
+/* fim formulario*/
+
+#banner {
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.caixa-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(0.9);
+    position: relative;
+    right: 300px;
+    bottom: 150px;
+}
+
+
+#container_projeto {
+    margin: 80px;
+    display: flex;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.dev-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+
+
+}
+
+#h3-projeto {
+    color: var(--AzulLight);
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+#texto-projeto {
+    color: var(--branco);
+
+    width: 400px;
+
+
+}
+
+/*fim projeto*/
+
+#problema {
+    background-color: var(--branco);
+    display: flex;
+    overflow-y: hidden;
+    max-height: 700px;
+
+}
+
+.texto-problema {
+
+    margin: auto;
+    max-width: 450px;
+    font-size: 20px;
+}
+
+.h3-problema {
+    background-image: linear-gradient(to right, #1A7FBD, #a4dcff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.linha-problema {
+    margin: 20px 0px;
+}
+
+.img-mulher {
+    width: 550px;
+    margin-left: 150px;
+}
+
+
+
+#card {
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+
+
+
+.cards-problema {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: -100px;
+    gap: 40px;
+}
+
+.card-problema {
+    background-color: var(--branco);
+    color: var(--preto);
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    flex: 1;
+    width: 250px;
+
+    box-shadow: 1px 7px 16px 2px rgba(0, 0, 0, 0.368);
+}
+
+/*fim problema*/
+.titulo-jornada {
+    text-align: center;
+    background-image: linear-gradient(45deg, #1A7FBD, #a4dcff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+#jornada {
+    background-color: var(--branco);
+    text-align: center;
+    padding: 20px;
+}
+
+.container-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#img2jornada {
+    height: 10px;
+    width: 220px;
+    margin: 0px 60px 16px 20px;
+}
+
+#img1jornada {
+    height: 10px;
+    width: 220px;
+    margin: 0px 20px 19px 60px;
+    transform: scaleX(-1);
+}
+
+.item-jornada {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.itens {
+    display: flex;
+    align-items: center;
+    background-color: var(--azul);
+    color: var(--branco);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 8px;
+}
+
+#bnt-jornada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+#span-jornada {
+    color: var(--azul);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.icon {
+    width: 40px;
+    border-radius: 6px;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: var(--branco);
+
+}
+
+
+
+
+
+#objetivo {
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.cards-objetivo {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: 80px;
+    gap: 40px;
+
+}
+
+.card-objetivo {
+
+    background-color: var(--branco);
+    color: var(--preto);
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    flex: 1;
+    width: 250px;
+
+    box-shadow: 1px 7px 16px 2px rgba(0, 0, 0, 0.368);
+
+}
+
+.titulo_obj {
+    color: var(--branco);
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.sub-titulo_obj {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background-color: var(--preto);
+    color: var(--branco);
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--branco);
+
+}
+
+footer li {
+    list-style: none;
+}
+
+#container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#netuno {
+    display: flex;
+}
+
+.redesocial {
+    width: 20px;
+    padding: 10px 10px 10px 0px;
+}
+
+#secoes-site {
+    display: flex;
+    margin-left: 70px;
+
+
+
+}
+
+#links li {
+    padding: 8px;
+}
+
+#links {
+
+    margin-right: 50px;
+}
+
+#hr-n {
+    width: 0.1px;
+    height: 130px;
+
+}
+
+#contato {
+    margin-left: 50px;
+}
+
+#contato p {
+    padding: 8px;
+}
+
+#btn-footer {
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid var(--azul);
+
+    font-weight: bold;
+
+
+}
+
+.vector1 {
+
+    margin: 40px 0px;
+}
